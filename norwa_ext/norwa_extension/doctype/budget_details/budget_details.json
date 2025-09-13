@@ -1,0 +1,140 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{department}-{fiscal_year}-{#}",
+ "creation": "2025-09-13 10:53:24.441827",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "accounts",
+  "timespan_section",
+  "jan",
+  "feb",
+  "mar",
+  "apr",
+  "may",
+  "jun",
+  "column_break_ipun",
+  "jul",
+  "aug",
+  "sep",
+  "oct",
+  "nov",
+  "dec"
+ ],
+ "fields": [
+  {
+   "fieldname": "accounts",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Accounts",
+   "options": "Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "timespan_section",
+   "fieldtype": "Section Break",
+   "label": "Timespan"
+  },
+  {
+   "fieldname": "jan",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Jan",
+   "non_negative": 1,
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "feb",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Feb",
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "mar",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Mar",
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "apr",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Apr",
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "may",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "May",
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "column_break_ipun",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aug",
+   "fieldtype": "Currency",
+   "label": "Aug",
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "sep",
+   "fieldtype": "Currency",
+   "label": "Sep",
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "oct",
+   "fieldtype": "Currency",
+   "label": "Oct",
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "nov",
+   "fieldtype": "Currency",
+   "label": "Nov",
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "dec",
+   "fieldtype": "Currency",
+   "label": "Dec",
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "jun",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "June",
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "jul",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "July",
+   "options": "Company:company:default_currency"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-09-13 11:35:25.620879",
+ "modified_by": "Administrator",
+ "module": "Norwa Extension",
+ "name": "Budget Details",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
