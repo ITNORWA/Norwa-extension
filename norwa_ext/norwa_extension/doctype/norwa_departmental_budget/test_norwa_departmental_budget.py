@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestNorwaBudget(FrappeTestCase):
+class TestNorwaDepartmentalBudget(FrappeTestCase):
 	pass

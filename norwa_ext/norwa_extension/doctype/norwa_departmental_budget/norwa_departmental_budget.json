@@ -8,6 +8,7 @@
   "fiscal_year",
   "posting_date",
   "column_break_uxzy",
+  "company",
   "department",
   "amended_from",
   "section_break_lcgy",
@@ -20,6 +21,7 @@
    "fieldname": "fiscal_year",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Fiscal Year",
    "options": "Fiscal Year",
    "reqd": 1
@@ -28,6 +30,8 @@
    "default": "Today",
    "fieldname": "posting_date",
    "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Posting Date"
   },
   {
@@ -37,6 +41,8 @@
   {
    "fieldname": "department",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Department",
    "options": "Department",
    "reqd": 1
@@ -46,7 +52,7 @@
    "fieldtype": "Link",
    "label": "Amended From",
    "no_copy": 1,
-   "options": "Norwa Budget",
+   "options": "Norwa Departmental Budget",
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
@@ -64,6 +70,7 @@
    "fieldtype": "Currency",
    "label": "Total",
    "non_negative": 1,
+   "options": "Company:company:default_currency",
    "read_only": 1
   },
   {
@@ -72,16 +79,25 @@
    "label": "Monthly Budget Distribution",
    "options": "Budget Details",
    "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-09-13 11:37:40.615612",
+ "modified": "2026-01-10 13:29:38.583870",
  "modified_by": "Administrator",
  "module": "Norwa Extension",
- "name": "Norwa Budget",
+ "name": "Norwa Departmental Budget",
  "owner": "Administrator",
  "permissions": [
   {
