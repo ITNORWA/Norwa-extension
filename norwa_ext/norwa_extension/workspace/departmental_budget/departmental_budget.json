@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"Mg7g6mjr5Z\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Departmental Budget</span>\",\"col\":12}},{\"id\":\"qotv7UNdOO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Department Budget\",\"col\":3}}]",
+ "content": "[{\"id\":\"Mg7g6mjr5Z\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Departmental Budget</span>\",\"col\":12}},{\"id\":\"qotv7UNdOO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Department Budget\",\"col\":3}},{\"id\":\"-QcdnOspHM\",\"type\":\"card\",\"data\":{\"card_name\":\"Budget Report\",\"col\":4}}]",
  "creation": "2026-01-10 13:14:33.457220",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,8 +12,48 @@
  "indicator_color": "blue",
  "is_hidden": 0,
  "label": "Departmental Budget",
- "links": [],
- "modified": "2026-01-12 13:41:35.530434",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Budget Report",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Budget Breakdown",
+   "link_count": 0,
+   "link_to": "Budget Breakdown",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Departmental Budget Breakdown",
+   "link_count": 0,
+   "link_to": "Departmental Budget Breakdown",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Budget Variance Report",
+   "link_count": 0,
+   "link_to": "Budget Variance Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-01-12 13:43:38.874789",
  "modified_by": "Administrator",
  "module": "Norwa Extension",
  "name": "Departmental Budget",
