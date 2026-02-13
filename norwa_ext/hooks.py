@@ -137,13 +137,17 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Purchase Order": {
+		"on_submit": "norwa_ext.norwa_extension.budget_control.validate_norwa_departmental_budget",
+	},
+	"Purchase Invoice": {
+		"on_submit": "norwa_ext.norwa_extension.budget_control.validate_norwa_departmental_budget",
+	},
+	"Expense Claim": {
+		"on_submit": "norwa_ext.norwa_extension.budget_control.validate_norwa_budget_on_expense_claim",
+	},
+}
 
 # Scheduled Tasks
 # ---------------

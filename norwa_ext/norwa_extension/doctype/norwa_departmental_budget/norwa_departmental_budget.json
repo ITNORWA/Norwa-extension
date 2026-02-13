@@ -14,7 +14,17 @@
   "section_break_lcgy",
   "budget_details",
   "section_break_mkhw",
-  "total"
+  "total",
+  "control_action_section",
+  "applicable_on_purchase_order",
+  "applicable_on_booking_actual_expenses",
+  "column_break_ubxa",
+  "applicable_on_purchase_invoice",
+  "monthly_control_action_section",
+  "monthly_applicable_on_purchase_order",
+  "monthly_applicable_on_booking_actual_expenses",
+  "column_break_kaoo",
+  "monthly_applicable_on_purchase_invoice"
  ],
  "fields": [
   {
@@ -88,13 +98,67 @@
    "label": "Company",
    "options": "Company",
    "reqd": 1
+  },
+  {
+   "fieldname": "control_action_section",
+   "fieldtype": "Section Break",
+   "label": "Yearly Control Action"
+  },
+  {
+   "default": "0",
+   "fieldname": "applicable_on_purchase_order",
+   "fieldtype": "Check",
+   "label": " Applicable on Purchase Order"
+  },
+  {
+   "default": "0",
+   "fieldname": "applicable_on_purchase_invoice",
+   "fieldtype": "Check",
+   "label": " Applicable on Purchase Invoice"
+  },
+  {
+   "fieldname": "column_break_ubxa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "monthly_control_action_section",
+   "fieldtype": "Section Break",
+   "label": "Monthly Control Action"
+  },
+  {
+   "default": "0",
+   "fieldname": "monthly_applicable_on_purchase_order",
+   "fieldtype": "Check",
+   "label": " Monthly Applicable on Purchase Order"
+  },
+  {
+   "default": "0",
+   "fieldname": "monthly_applicable_on_purchase_invoice",
+   "fieldtype": "Check",
+   "label": "Monthly Applicable on Purchase Invoice"
+  },
+  {
+   "fieldname": "column_break_kaoo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "applicable_on_booking_actual_expenses",
+   "fieldtype": "Check",
+   "label": "Applicable on booking actual expenses"
+  },
+  {
+   "default": "0",
+   "fieldname": "monthly_applicable_on_booking_actual_expenses",
+   "fieldtype": "Check",
+   "label": "Monthly Applicable on booking actual expenses"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-01-10 13:29:38.583870",
+ "modified": "2026-02-14 01:07:04.750773",
  "modified_by": "Administrator",
  "module": "Norwa Extension",
  "name": "Norwa Departmental Budget",
